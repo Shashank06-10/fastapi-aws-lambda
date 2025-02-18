@@ -1,4 +1,4 @@
-'#type:ignore'
+
 from fastapi import FastAPI # type: ignore
 from mangum import Mangum # type: ignore
 
