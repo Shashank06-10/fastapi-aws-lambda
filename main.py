@@ -1,5 +1,6 @@
-from fastapi import FastAPI
-from mangum import Mangum
+'#type:ignore'
+from fastapi import FastAPI # type: ignore
+from mangum import Mangum # type: ignore
 
 app = FastAPI()
 handler = Mangum(app)
